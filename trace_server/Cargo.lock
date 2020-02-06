@@ -225,6 +225,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "harsh"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "headers"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -879,6 +884,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "trace_server"
 version = "0.1.0"
 dependencies = [
+ "base64 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "harsh 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_urlencoded 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "tokio 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)",
  "warp 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -1095,6 +1103,7 @@ dependencies = [
 "checksum generic-array 0.12.3 (registry+https://github.com/rust-lang/crates.io-index)" = "c68f0274ae0e023facc3c97b2e00f076be70e254bc851d972503b328db79b2ec"
 "checksum getrandom 0.1.14 (registry+https://github.com/rust-lang/crates.io-index)" = "7abc8dd8451921606d809ba32e95b6111925cd2906060d2dcc29c070220503eb"
 "checksum h2 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "b9433d71e471c1736fd5a61b671fc0b148d7a2992f666c958d03cd8feb3b88d1"
+"checksum harsh 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "70de663ed486483a0ca6938259b0de8f0bf8b5c4eac5675f963e3eff077f303a"
 "checksum headers 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "a72b4bd7cbbf0c22190e82f02517f456a6b9be24c25a6827b5802e478b8c2d70"
 "checksum headers-core 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e7f66481bfee273957b1f20485a4ff3362987f85b2c236580d81b4eb7a326429"
 "checksum http 0.1.21 (registry+https://github.com/rust-lang/crates.io-index)" = "d6ccf5ede3a895d8856620237b2f02972c1bbc78d2965ad7fe8838d4a0ed41f0"
